@@ -1,0 +1,39 @@
+.basic {
+    color: blue
+}
+
+        nav {
+        background-color: #333;
+        }
+        nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        }
+        nav li {
+        margin-right: 20px;
+        }
+        nav a {
+        color: white;
+        text-decoration: none;
+        padding: 14px 20px;
+        display: block;
+        }
+        /* Hover effect */
+        nav a:hover {
+        background-color: #575757;
+        }
+        /* Active (current page) link */
+        nav a.active {
+        background-color: #09f3ffde;  /* a green highlight */
+        font-weight: bold;          /* make it stand out */
+        }
+        body {
+            background-color: rgba(194, 230, 244, 0.89);
+        }
+        img {
+            float: right;
+            width: 670px;
+            height: 670px;
+        }
